@@ -1,0 +1,16 @@
+.NavBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 18vh;
+    background: rgb(87, 87, 102);
+    color: white;
+}
+
+.Nav-Links {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
