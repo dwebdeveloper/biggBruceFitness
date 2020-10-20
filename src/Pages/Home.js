@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import PageLink from '../Components/pagelinks/PageLinks';
 import Registration from '../Components/registrationform/RegistrationForm';
-import image from '../assets/images/step1.jpg'
 
 class Home extends Component {
     constructor(props) {
@@ -19,12 +19,10 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <img src={image} alt='bakugo' />
+                <PageLink />
                 <Registration addAttendees={this.addAttendees} />
-
-
             </div>
-        )
+        );
     }
 }
 

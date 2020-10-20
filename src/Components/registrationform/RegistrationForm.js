@@ -34,6 +34,7 @@ class RegistrationForm extends Component {
     render() {
         return (
             <div className='RegistrationForm'>
+                <h1>Big Bruce Fitness</h1>
 
                 <form
                     onSubmit={this.handleSubmit}
@@ -44,7 +45,7 @@ class RegistrationForm extends Component {
                         placeholder='Name'
                         value={this.state.attendee.name}
                         onChange={this.handleChange}
-                    />
+                    /><br />
                     <input
                         name='lastName'
                         type='lastName'
@@ -52,7 +53,7 @@ class RegistrationForm extends Component {
                         value={this.state.attendee.lastName}
                         onChange={this.handleChange}
 
-                    />
+                    /><br />
                     <input
                         name='email'
                         placeholder='Email'
@@ -60,7 +61,7 @@ class RegistrationForm extends Component {
                         value={this.state.attendee.email}
                         onChange={this.handleChange}
 
-                    />
+                    /><br />
 
                     <button>Submit</button>
 
