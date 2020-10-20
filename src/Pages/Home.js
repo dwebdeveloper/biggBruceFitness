@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import PageLink from '../Components/pagelinks/PageLinks';
+import PageLink1 from '../Components/pagelinks/PageLinks1';
+
 import Registration from '../Components/registrationform/RegistrationForm';
 
 class Home extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             attendees: []
         }
@@ -21,6 +23,7 @@ class Home extends Component {
             <div className="Home">
                 <PageLink />
                 <Registration addAttendees={this.addAttendees} />
+                <PageLink1 />
             </div>
         );
     }

@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from '../src/Components/navbar/NavBar';
 import Home from '../src/Pages/Home';
 import Programs from '../src/Pages/Programs';
+import About from '../src/Pages/About';
 import Videos from '../src/Pages/Videos';
 import NotFound from '../src/Pages/NotFound';
 
@@ -24,6 +25,12 @@ function App() {
           <Route
             exact path='/home'
             component={Home}
+
+          />
+
+          <Route
+            exact path='/aboutbigbrucefitness'
+            component={About}
 
           />
 

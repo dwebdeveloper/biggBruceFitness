@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import '../registrationform/RegistrationForm.css'
 
 class RegistrationForm extends Component {
     constructor(props) {
-        super(props)
+        super(props);
         this.state = {
             attendee: {
                 name: '',
@@ -23,26 +24,36 @@ class RegistrationForm extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault()
-        this.props.addAttendee({ ...this.state.attendee })
+        this.props.addAttendees({ ...this.state.attendee })
         this.setState({
-            name: '',
-            lastName: '',
-            email: ''
+            attendee: {
+                name: '',
+                lastName: '',
+                email: ''
+            }
+
         })
     }
 
     render() {
         return (
             <div className='RegistrationForm'>
-                <h1>Big Bruce Fitness</h1>
+
+
 
                 <form
+                    className='Container'
                     onSubmit={this.handleSubmit}
                 >
+                    <div>
+                        <h1>Big Bruce Fitness</h1>
+                        <p>Get the latest videos and updates on workout programs</p>
+                    </div>
+
                     <input
                         name='name'
                         type='name'
-                        placeholder='Name'
+                        placeholder='First Name'
                         value={this.state.attendee.name}
                         onChange={this.handleChange}
                     /><br />

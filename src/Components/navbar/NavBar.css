@@ -3,8 +3,9 @@
     justify-content: space-around;
     align-items: center;
     min-height: 18vh;
-    background: rgb(176, 176, 190);
-    color: rgb(36, 30, 30);
+    border: 2px solid rgb(20, 18, 18);
+    background: rgb(29, 29, 37);
+    color: rgb(248, 237, 237);
 }
 
 .Nav-Links {
@@ -13,4 +14,13 @@
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
+}
+
+.Span {
+    display: block;
+}
+
+.Logo {
+    min-height: 6px;
+    border-radius: 8px;
 }

@@ -1,0 +1,21 @@
+.RegistrationForm {
+    min-height: 380px;
+    
+}
+
+.Container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=name], input[type=lastName], input[type=email]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
