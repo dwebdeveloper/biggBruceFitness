@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../navbar/NavBar.css';
+import BigBruceLogo from '../../assets/images/BigBruceLogo.png';
+
+
+
+
+
 
 
 class NavBar extends Component {
     render() {
         return (
-            <span className="NavBar">
-                <span className='Span'>
-                    <img className='Logo' src='https://d3qcjjq30235ix.cloudfront.net/logos/12a08ef7d8077776e01317d91764bb8f.png' alt='logo' />
-                </span>
+            <div className="NavBar">
+                <div className='Containerimg'>
+                    <img className='BigBruceLogo' src={BigBruceLogo} alt='Big Bruce' />
+                </div>
 
 
                 <ul className="Nav-Links">
@@ -18,7 +24,7 @@ class NavBar extends Component {
                     <li><Link to='/aboutbigbrucefitness'>About Big Bruce Fitness</Link></li>
 
                 </ul>
-            </span>
+            </div>
 
         )
     }

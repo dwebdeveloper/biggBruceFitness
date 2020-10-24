@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../../assets/images/BBF2.jpg';
+import image from '../../assets/images/Home.jpg';
 import '../pagelinks/PageLinks.css';
 
 class PageLinks1 extends Component {

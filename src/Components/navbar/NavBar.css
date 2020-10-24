@@ -1,26 +1,32 @@
 .NavBar {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 18vh;
-    border: 2px solid rgb(20, 18, 18);
+    justify-content: space-between;
+    width:100%;
+    height: 180px;
+    border-bottom: 10px solid white;
     background: rgb(29, 29, 37);
     color: rgb(248, 237, 237);
 }
 
+
+.Containerimg {
+    height: 160px;
+    border:2px solid red;
+    padding: 0px;
+}
+
+.BigBruceLogo {
+    height: 280px;
+    width: 400px
+}
+
 .Nav-Links {
-    width: 50%;
+    
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     list-style-type: none;
 }
 
-.Span {
-    display: block;
-}
 
-.Logo {
-    min-height: 6px;
-    border-radius: 8px;
-}
+
