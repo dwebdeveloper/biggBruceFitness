@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../navbar/NavBar.css';
-import BigBruceLogo from '../../assets/images/BigBruceLogo.png';
+import BigBruce from '../../assets/images/biggsolo.png';
 
 
 
@@ -13,17 +13,31 @@ class NavBar extends Component {
     render() {
         return (
             <div className="NavBar">
-                <div className='Containerimg'>
-                    <img className='BigBruceLogo' src={BigBruceLogo} alt='Big Bruce' />
+                <div className='TopHeader'>
+                    <div className='Containerimg'>
+                        <h1 className='TopHeaderTitle'>Big Bruce Fitness</h1>
+                    </div>
+                </div>
+                <div className='MidHeader'>
+                    <img className='MidHeaderImg' src={BigBruce} alt='Rashad' />
                 </div>
 
 
-                <ul className="Nav-Links">
-                    <li><Link to='/home'>Home</Link></li>
-                    <li><Link to='/programs'>Programs</Link></li>
-                    <li><Link to='/aboutbigbrucefitness'>About Big Bruce Fitness</Link></li>
 
-                </ul>
+                <div className='NavHeader'>
+                    <ul className="Nav-Links">
+                        <li className='Links'>
+                            <Link to='/home'>Home</Link>
+                        </li>
+                        <li className='Links'>
+                            <Link to='/programs'>Programs</Link></li>
+                        <li className='Links'>
+                            <Link to='/aboutbigbrucefitness'>About Big Bruce Fitness</Link>
+                        </li>
+
+                    </ul>
+                </div>
+
             </div>
 
         )

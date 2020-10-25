@@ -1,0 +1,13 @@
+.VideoHeader  {
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 30px;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+
+

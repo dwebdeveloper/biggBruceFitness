@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import '../Pages/Home.css'
-import PageLink from '../Components/pagelinks/PageLinks';
-import HomeDiv from '../Components/homedivs/HomeDiv';
+import VideoHeader from '../Components/videoheader/VideoHeader';
+import HomeContent from '../Components/homecontent/HomeContent';
 import Registration from '../Components/registrationform/RegistrationForm';
+//import antd below
 
 class Home extends Component {
     constructor(props) {
@@ -21,10 +22,12 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <PageLink />
+                <VideoHeader />
                 <Registration addAttendees={this.addAttendees} />
-                <HomeDiv />
-            </div>
+
+                <HomeContent />
+
+            </div >
         );
     }
 }

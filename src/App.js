@@ -9,6 +9,7 @@ import About from '../src/Pages/About';
 import Videos from '../src/Pages/Videos';
 import NotFound from '../src/Pages/NotFound';
 
+
 function App() {
 
   return (
@@ -47,7 +48,7 @@ function App() {
 
           <Route
             exact path='*'
-            cSomponent={NotFound}
+            component={NotFound}
           />
 
         </Switch>

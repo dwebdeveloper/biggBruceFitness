@@ -1,0 +1,11 @@
+.HomeContent {
+    width:100%;
+    background-color: cadetblue;
+    border: 2px solid green;
+    background: rgb(29, 29, 37);
+    color: rgb(248, 237, 237);
+}
+
+p {
+   color: black;
+}
