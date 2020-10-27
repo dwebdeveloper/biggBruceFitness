@@ -3,7 +3,7 @@ import './HomeContent.css'
 //Below imported Images
 import MealPlan from '../../assets/images/mealPlan.png';
 import Live from '../../assets/images/Live.png';
-import outdoorWorkout from '../../assets/images/outdoorWorkout.jpg';
+import Abs from '../../assets/images/Abs.jpg';
 
 //import antd below
 /*import { Layout } from "antd";
@@ -13,30 +13,55 @@ class HomeContent extends Component {
     render() {
         return (
             <div className='HomeContent'>
-                <div className='Mealplan'>
-                    <img src={MealPlan} alt='MealPlan' />
+                <h2
+                    className='HomeHeader'
+                >
+                    workout programs to reach your goal
+                </h2>
+                <div className='MealPlan'>
+                    <img className='MealPlanImg' src={MealPlan} alt='MealPlan' />
+                    <p className='MealPlanContent'>
+                        <h2 className='MealPlanTitle'>
+                            Personalized meal plans
+                        </h2>
+                            Made specifically towards your own personal nutritional needs. It all starts in the kitchen. Doing weekly weigh-ins and adjusting your meal plan as needed.
+                    </p>
 
-
-                    <p>Get kicked started on your fat loss journey with my personalized meal plan . My meal plan is made specifically for you based on foods you absolutely love and geared towards your own personal fitness/nutritional needs . Whether it be to shred, bulk , get rid of that stubborn belly fat , it all starts in the kitchen . Along with the meal plan , I will also be doing weekly weigh ins with you and adjusting the meal plan as needed (because  when your body changes  so does your diet) free of charge.</p>
                 </div>
 
 
                 <div className='Live'>
-                    <img src={Live} alt='MealPlan' />
+                    <img className='LiveImg' src={Live} alt='LiveWorkout' />
 
 
-                    <p>Get kicked started on your fat loss journey with my personalized meal plan . My meal plan is made specifically for you based on foods you absolutely love and geared towards your own personal fitness/nutritional needs . Whether it be to shred, bulk , get rid of that stubborn belly fat , it all starts in the kitchen . Along with the meal plan , I will also be doing weekly weigh ins with you and adjusting the meal plan as needed (because  when your body changes  so does your diet) free of charge.</p>
+                    <p className='LiveContent'>
+                        <h2 className='LiveTitle'>
+                            Shred Formula ❌ (Live)
+                        </h2>
+                        Follow along workouts performed on a separate private Instagram account live from the comforts of your own home. Class schedule is Monday-Friday 6pm.
+                    </p>
                 </div>
 
-                <div className='Live'>
-
-
-
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sit quaerat placeat exercitationem nulla beatae vero quam, unde recusandae qui est nesciunt at fuga expedita nemo aliquam laborum molestiae assumenda?</p>
+                <div className='ShredProgram'>
+                    <img className='ShredImg' src={Abs} alt='RashadAbs' />
+                    <p className='ShredContent'>
+                        <h2 className='ShredTitle'>
+                            Shred Formula 2.0
+                        </h2>
+                        12 week program delievers the shredded results you have been dying for. combination of Circuit/HIIT based sessions. a serious edge when it comes to fat loss!
+                    </p>
                 </div>
-                <div>
-                    <img src={outdoorWorkout} alt='Rashad' />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut recusandae aliquid neque ipsa minus velit necessitatibus! Incidunt sapiente tenetur id exercitationem impedit, maiores, debitis dolore, quod accusamus obcaecati libero possimus.</p>
+
+                <div className='Consultation'>
+
+                    <p className='ConsultationContent'>
+                        <h2 className='ConsultationTitle'>
+                            Free Consultation
+                        </h2>
+                        Fitness goals - nutritional goals - life goals. Lets talk and design the right program for you.
+                        <a className='LetsBegin'>LETS BEGIN</a>
+
+                    </p>
                 </div>
 
             </div >

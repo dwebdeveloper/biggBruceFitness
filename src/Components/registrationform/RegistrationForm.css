@@ -1,13 +1,11 @@
 .RegistrationForm {
-    min-height: 380px;
+    width: 100%;
     background-color: brown;
+
 }
 
 .Container {
-    position: absolute;
-    right: 0;
-    margin: 20px;
-    max-width: 300px;
+    width: 300px;
     padding: 16px;
     background-color: white;
 }

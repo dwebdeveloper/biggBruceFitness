@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import '../Pages/Home.css'
 import VideoHeader from '../Components/videoheader/VideoHeader';
+import HomeDiv from '../Components/homediv/HomeDiv';
 import HomeContent from '../Components/homecontent/HomeContent';
-import Registration from '../Components/registrationform/RegistrationForm';
+import Footer from '../Components/footer/FooterBlock';
+
 //import antd below
 
 class Home extends Component {
@@ -23,10 +25,9 @@ class Home extends Component {
         return (
             <div className="Home">
                 <VideoHeader />
-                <Registration addAttendees={this.addAttendees} />
-
+                <HomeDiv />
                 <HomeContent />
-
+                <Footer />
             </div >
         );
     }

@@ -1,0 +1,57 @@
+.Footer {
+    width: 100%;
+    height: fit-content;
+    /*border:2px solid purple;*/
+    background-color: rgb(243, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.ScrollUp {
+    width: 100%;
+}
+
+.ScrollButton {
+    width: 180px;
+    height: 50px;
+    color: rgb(0, 66, 128);
+    background-color: rgb(97, 255, 163);
+    border: 1px solid rgb(97, 255, 163);
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+.SocialMediaContainers {
+    width:100%;
+    height: 60px;
+    /*border: 2px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+.Face {
+    /*border: 1px solid black;*/
+    width: 50px;
+    height: 55px;
+}
+
+.Twitter {
+    width: 62px;
+    height: 60px;
+}
+
+.Instagram {
+    width: 55px;
+    height: 53px;
+}
+
+.Youtube {
+ width: 70px;
+ height: 50px;
+
+}
