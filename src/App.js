@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import '../src/App.css'
 //Imported Pages below here:
 import NavBar from '../src/Components/navbar/NavBar';
+import FooterBlock from '../src/Components/footer/FooterBlock';
 import Home from '../src/Pages/Home';
 import Programs from '../src/Pages/Programs';
 import About from '../src/Pages/About';
@@ -52,6 +53,7 @@ function App() {
           />
 
         </Switch>
+        <FooterBlock />
       </div>
 
     </Router>

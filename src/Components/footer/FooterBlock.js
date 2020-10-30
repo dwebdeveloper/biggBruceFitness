@@ -17,7 +17,7 @@ class FooterBlock extends Component {
                     <button className='ScrollButton'>BACK TO TOP</button>
                 </div>
                 <div className='SocialMediaContainers'>
-                    <a href=""><img className='Face' src={Face} /></a>
+                    <a href="https://www.facebook.com/BigBruce908"><img className='Face' src={Face} /></a>
                     <a href=""><img className='Twitter' src={Twitter} /></a>
                     <a href="https://www.instagram.com/shredseasonlive/?hl=en" target='_blank'><img className='Instagram' src={Instagram} /></a>
                     <a href="https://www.youtube.com/channel/UCtkkzqzbGP7BLZiVrBTPvQw" target='_blank'><img className='Youtube' src={Youtube} /></a>

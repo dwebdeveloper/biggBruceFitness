@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
+import '../Pages/About.css'
+import BBF from '../assets/images/BBF1.jpg';
 
-class Programs extends Component {
+
+class About extends Component {
     render() {
         return (
-            <div>
-                <h1>Programs below here</h1>
+            <div className='AboutContainer'>
+                <img className='AboutImg' src={BBF} alt='Rashad' />
+
+
+                <p className='AboutMe'>
+                    <h1>RASHAD AKA BIGG BRUCE</h1>
+                    I am NASM certified personal trainer.
+                </p>
             </div>
         )
     };
 }
 
-export default Programs;
+export default About;

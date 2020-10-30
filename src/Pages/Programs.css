@@ -1,0 +1,92 @@
+.Program {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+}
+.ProgramContainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*border: 1px solid black;*/
+}
+
+.P {
+    margin: 20px;
+    /*border: 1px solid rgb(207, 207, 207);*/
+    text-transform: uppercase;
+    width: 380px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.One {
+    background-image: url('../../src/assets/images/mealPlan.png');
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Two {
+    background-image: url('../../src/assets/images/gymWorkout.png');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Three {
+    background-image: url('../../src/assets/images/outdoorWorkout.jpg');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Four {
+    background-image: url('../../src/assets/images/Abs.jpg');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Five {
+    background-image: url('../../src/assets/images/Live.png');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Six {
+    background-image: url('../../src/assets/images/BootCamp.jpg');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Seven {
+    background-image: url('../../src/assets/images/AbChallenge.png');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+.Eight {
+    background-image: url('../../src/assets/images/Field.jpeg');
+    background-size: 100px;
+    background-size: 380px 280px;
+    background-repeat: no-repeat;
+}
+
+
+.PHeader {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 17px;
+    background-color: rgb(214, 216, 221);
+    color:rgb(29, 29, 29);
+    margin-top: 130px;
+    width: 380px;
+    height: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: .7;
+}

@@ -15,7 +15,7 @@ class NavBar extends Component {
             <div className="NavBar">
                 <div className='TopHeader'>
                     <div className='Containerimg'>
-                        <h1 className='TopHeaderTitle'>Big Bruce Fitness</h1>
+                        <h1 className='TopHeaderTitle'>Bigg Bruce Fitness</h1>
                     </div>
                 </div>
                 <div className='MidHeader'>

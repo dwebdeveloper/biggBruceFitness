@@ -1,0 +1,26 @@
+.AboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 760px;
+    /*border: 2px solid black;*/
+}
+
+.AboutImg {
+    width: 35%;
+    height: 650px;
+}
+
+.AboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    width: 50%;
+    height: 700px;
+    font-size: 15px;
+}
