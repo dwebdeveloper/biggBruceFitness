@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RegistrationForm from '../../Components/registrationform/RegistrationForm';
 import './HomeContent.css'
 //Below imported Images
 import MealPlan from '../../assets/images/mealPlan.png';
@@ -36,7 +37,7 @@ class HomeContent extends Component {
 
                     <p className='LiveContent'>
                         <h2 className='LiveTitle'>
-                            Shred Formula ❌ (Live)
+                            Shred Formula X (Live)
                         </h2>
                         Follow along workouts performed on a separate private Instagram account live from the comforts of your own home. Class schedule is Monday-Friday 6pm.
                     </p>
@@ -59,7 +60,7 @@ class HomeContent extends Component {
                             Free Consultation
                         </h2>
                         Fitness goals - nutritional goals - life goals. Lets talk and design the right program for you.
-                        <a className='LetsBegin'>LETS BEGIN</a>
+                        <a href={RegistrationForm} className='LetsBegin'>LETS BEGIN</a>
 
                     </p>
                 </div>
