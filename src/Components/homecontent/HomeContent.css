@@ -20,17 +20,15 @@
     background-color: whitesmoke;
     opacity: 0.96;
     text-align: center;
+    margin: 0;
 }
 
 .MealPlan {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*border: 2px solid slategray;*/
     height: max-content;
     width: 100%;
-    margin-bottom: 10px;
-    
 }
 
 .MealPlanImg {
@@ -138,7 +136,7 @@
 }
 @media screen and (max-width: 1230px){
     .MealPlan {
-        flex-flow: column nowrap;
+        flex-flow: column-reverse nowrap;
     }  
 
     .MealPlanImg {
@@ -150,7 +148,7 @@
     }
 
     .Live {
-        flex-flow: column nowrap;
+        flex-flow: column-reverse nowrap;
     }
 
     .LiveImg {
@@ -163,7 +161,7 @@
     }
 
     .ShredProgram {
-        flex-flow: column nowrap;
+        flex-flow: column-reverse nowrap;
     }
 
     .ShredImg {
