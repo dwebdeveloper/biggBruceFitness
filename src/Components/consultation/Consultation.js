@@ -6,17 +6,20 @@ class Consultation extends Component {
 
 
     render() {
-        <div className='Consultation'>
+        return (
+            <div className='Consultation'>
 
-            <p className='ConsultationContent'>
-                <h2 className='ConsultationTitle'>
-                    Free Consultation
-                </h2>
-                    Fitness goals - nutritional goals - life goals. Lets talk and design the right program for you.
-                <a href={RegistrationForm} className='LetsBegin'>LETS BEGIN</a>
+                <p className='ConsultationContent'>
+                    <h2 className='ConsultationTitle'>
+                        Free Consultation
+                    </h2>
+        Fitness goals - nutritional goals - life goals. Lets talk and design the right program for you.
+                    <a href={RegistrationForm} className='LetsBegin'>LETS BEGIN</a>
 
-            </p>
-        </div>
+                </p>
+            </div>
+        )
+
     }
 }
 
