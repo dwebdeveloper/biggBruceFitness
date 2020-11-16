@@ -9,14 +9,20 @@ class Consultation extends Component {
         return (
             <div className='Consultation'>
 
-                <p className='ConsultationContent'>
-                    <h2 className='ConsultationTitle'>
-                        Free Consultation
-                    </h2>
-        Fitness goals - nutritional goals - life goals. Lets talk and design the right program for you.
-                    <a href={RegistrationForm} className='LetsBegin'>LETS BEGIN</a>
+                <h2 className='ConsultationTitle'>
+                    Free Consultation
+                </h2>
 
-                </p>
+                <ul className='Goals'>
+                    <li>Fitness goals</li>
+                    <li>nutritional goals</li>
+                    <li>life goals</li>
+
+                </ul>
+
+                <p className='ConsultationContent'>Lets talk and design the right program for you.</p>
+                <a href={RegistrationForm} className='LetsBegin'>LETS BEGIN</a>
+
             </div>
         )
 
