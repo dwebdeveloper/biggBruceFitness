@@ -13,11 +13,11 @@ class NavBar extends Component {
     render() {
         return (
             <div className="NavBar">
+
                 <div className='TopHeader'>
-                    <div className='Containerimg'>
-                        <h1 className='TopHeaderTitle'>Bigg Bruce Fitness</h1>
-                    </div>
+                    <h1 className='Title'>Bigg Bruce Fitness</h1>
                 </div>
+
                 <div className='MidHeader'>
                     <img className='MidHeaderImg' src={BigBruce} alt='Rashad' />
                 </div>
@@ -26,6 +26,7 @@ class NavBar extends Component {
 
                 <div className='NavHeader'>
                     <ul className="Nav-Links">
+
                         <li className='Links'>
                             <Link to='/home'>Home</Link>
                         </li>
