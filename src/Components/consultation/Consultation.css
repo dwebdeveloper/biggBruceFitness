@@ -1,0 +1,47 @@
+.Consultation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    height: max-content;
+    width: 100%;
+    background-color: rgb(240, 214, 214);
+}
+
+.ConsultationTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.Goals {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row nowrap;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    color: rgb(117, 58, 211);
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+
+.ConsultationContent {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    color: rgb(117, 58, 211);
+    text-transform: uppercase;
+}
+
+.LetsBegin {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(77, 245, 167);
+}

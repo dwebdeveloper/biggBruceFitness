@@ -3,6 +3,7 @@ import '../Pages/Home.css'
 import VideoHeader from '../Components/videoheader/VideoHeader';
 import HomeDiv from '../Components/homediv/HomeDiv';
 import HomeContent from '../Components/homecontent/HomeContent';
+import Consultation from '../Components/consultation/Consultation';
 
 //import antd below
 
@@ -26,6 +27,8 @@ class Home extends Component {
                 <VideoHeader />
                 <HomeDiv />
                 <HomeContent />
+                <Consultation />
+
             </div >
         );
     }
