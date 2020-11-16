@@ -14,18 +14,24 @@ class HomeContent extends Component {
     render() {
         return (
             <div className='HomeContent'>
+
                 <h2
                     className='HomeHeader'
                 >
                     workout programs to reach your goal
                 </h2>
+
                 <div className='MealPlan'>
+
                     <img className='MealPlanImg' src={MealPlan} alt='MealPlan' />
+
                     <p className='MealPlanContent'>
                         <h2 className='MealPlanTitle'>
                             Personalized meal plans
                         </h2>
+
                             Made specifically towards your own personal nutritional needs. It all starts in the kitchen. Doing weekly weigh-ins and adjusting your meal plan as needed.
+
                     </p>
 
                 </div>
