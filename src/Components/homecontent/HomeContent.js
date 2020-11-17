@@ -25,14 +25,16 @@ class HomeContent extends Component {
 
                     <img className='MealPlanImg' src={MealPlan} alt='MealPlan' />
 
-                    <p className='MealPlanContent'>
+                    <div className='MealPlanContent'>
                         <h2 className='MealPlanTitle'>
                             Personalized meal plans
                         </h2>
-
+                        <p className='Content'>
                             Made specifically towards your own personal nutritional needs. It all starts in the kitchen. Doing weekly weigh-ins and adjusting your meal plan as needed.
 
                     </p>
+                    </div>
+
 
                 </div>
 
@@ -41,22 +43,28 @@ class HomeContent extends Component {
                     <img className='LiveImg' src={Live} alt='LiveWorkout' />
 
 
-                    <p className='LiveContent'>
+                    <div className='LiveContent'>
                         <h2 className='LiveTitle'>
                             Shred Formula X (Live)
                         </h2>
-                        Follow along workouts performed on a separate private Instagram account live from the comforts of your own home. Class schedule is Monday-Friday 6pm.
+                        <p className='Content'>
+                            Follow along workouts performed on a separate private Instagram account live from the comforts of your own home. Class schedule is Monday-Friday 6pm.
                     </p>
+                    </div>
+
                 </div>
 
                 <div className='ShredProgram'>
                     <img className='ShredImg' src={Abs} alt='RashadAbs' />
-                    <p className='ShredContent'>
+                    <div className='ShredContent'>
                         <h2 className='ShredTitle'>
                             Shred Formula 2.0
                         </h2>
-                        12 week program delievers the shredded results you have been dying for. combination of Circuit/HIIT based sessions. a serious edge when it comes to fat loss!
-                    </p>
+                        <p className='Content'>
+                            12 week program delievers the shredded results you have been dying for. combination of Circuit/HIIT based sessions. a serious edge when it comes to fat loss!
+                        </p>
+                    </div>
+
                 </div>
 
 
