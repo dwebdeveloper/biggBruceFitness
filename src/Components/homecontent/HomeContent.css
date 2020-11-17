@@ -26,7 +26,6 @@
 .MealPlan {
     display: flex;
     justify-content: flex-start;
-    align-items: center;
     height: max-content;
     width: 100%;
 }
@@ -41,7 +40,6 @@
 .MealPlanContent {
     padding: 100px;
     text-transform: uppercase;
-    /*font-weight: 800;*/
     font-size: 20px;
 }
 
@@ -49,8 +47,27 @@
     font-weight: 900;
 }
 
+.Content {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .MealPlanContent {
+        padding: 10px;
+    }
+    .LiveContent {
+        padding: 10px;
+    }
+    .ShredContent {
+        padding: 10px;
+    }
+
+    .Content {
+        font-size: 15px;
+    }
+}
+
 .Live {     
-    border-bottom: 4px solid black;
     background-color: black;
     opacity: 0.96;
     height: 50%;           
@@ -101,7 +118,6 @@
 .ShredContent {
     padding: 100px;
     text-transform: uppercase;
-    /*font-weight: 800;*/
     font-size: 20px;
 }
 
