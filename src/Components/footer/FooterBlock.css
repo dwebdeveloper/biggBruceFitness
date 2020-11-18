@@ -1,7 +1,7 @@
 .Footer {
     width: 100%;
     height: max-content;
-    background-color: rgb(240, 242, 243);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,6 +26,7 @@
 }
 
 .SocialMediaContainers {
+    margin-top: 15px;
     display: flex;
     justify-content: space-around;
     width:40%;
