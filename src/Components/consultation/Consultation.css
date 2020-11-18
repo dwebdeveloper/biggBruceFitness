@@ -22,7 +22,7 @@
     justify-content: space-around;
     align-items: center;
     flex-flow: row nowrap;
-    font-size: 30px;
+    font-size: 18px;
     text-align: center;
     width: 100%;
     color: rgb(117, 58, 211);
@@ -30,21 +30,6 @@
     list-style-type: none;
 }
 
-
-.ConsultationContent {
-    text-align: center;
-    margin: 0;
-    font-size: 30px;
-    color: rgb(117, 58, 211);
-    text-transform: uppercase;
-}
-
-.LetsBegin {
-    margin: 0;
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(77, 245, 167);
-}
 
 @media screen and (max-width: 754px){ 
     .Goals {

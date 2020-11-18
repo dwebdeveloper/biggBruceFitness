@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../consultation/Consultation.css';
-import RegistrationForm from '../../Components/registrationform/RegistrationForm';
 
 class Consultation extends Component {
 
@@ -19,10 +18,6 @@ class Consultation extends Component {
                     <li>life goals</li>
 
                 </ul>
-
-                <p className='ConsultationContent'>Lets talk and design the right program for you.</p>
-                <a href={RegistrationForm} className='LetsBegin'>LETS BEGIN</a>
-
             </div>
         )
 
