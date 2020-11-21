@@ -15,7 +15,7 @@ class NavBar extends Component {
             <div className="NavBar">
 
                 <div className='TopHeader'>
-                    <h1 className='Title'>Bigg Bruce Fitness</h1>
+                    <h1 className='LogoName'>Bigg Bruce Fitness</h1>
                 </div>
 
                 <div className='MidHeader'>
@@ -33,7 +33,7 @@ class NavBar extends Component {
                         <li className='Links'>
                             <Link to='/programs'>Programs</Link></li>
                         <li className='Links'>
-                            <Link to='/aboutbigbrucefitness'>About Big Bruce Fitness</Link>
+                            <Link to='/aboutbigbrucefitness'>About</Link>
                         </li>
 
                     </ul>
