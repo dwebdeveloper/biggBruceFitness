@@ -12,11 +12,6 @@ import Field from '../../src/assets/images/Field.jpeg';*/
 
 
 
-
-
-
-
-
 class Programs extends Component {
     render() {
         return (

@@ -21,13 +21,13 @@
    /*border:5px solid rgb(234, 252, 79);*/
 }
 
-.Title {
+.LogoName {
     display: flex;   
     justify-content: center;
     width: 100%;
     color: black;
     font-size: 45px;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Bungee Shade', cursive;  
     color: whitesmoke;
     text-transform: uppercase;
 }
@@ -61,7 +61,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /*border:2px solid firebrick;*/
+    text-transform: lowercase;
+    font-family: 'Trade Winds', cursive;
     height: 20px; 
     list-style-type: none;
 }
@@ -70,12 +71,12 @@
     padding-right: 15px;
     margin: 0;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none;
  }
 /*I used <a> to change the color but why couldnt I change it in links */
  a {
-     color:whitesmoke;
+     color:white;
  }
  
 
