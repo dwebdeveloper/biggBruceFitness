@@ -26,7 +26,7 @@ class HomeContent extends Component {
                     <img className='MealPlanImg' src={MealPlan} alt='MealPlan' />
 
                     <div className='MealPlanContent'>
-                        <h2 className='MealPlanTitle'>
+                        <h2 className='MealPlanTitle Title'>
                             Personalized meal plans
                         </h2>
                         <p className='Content'>
@@ -44,7 +44,7 @@ class HomeContent extends Component {
 
 
                     <div className='LiveContent'>
-                        <h2 className='LiveTitle'>
+                        <h2 className='LiveTitle Title'>
                             Shred Formula X (Live)
                         </h2>
                         <p className='Content'>
@@ -57,7 +57,7 @@ class HomeContent extends Component {
                 <div className='ShredProgram'>
                     <img className='ShredImg' src={Abs} alt='RashadAbs' />
                     <div className='ShredContent'>
-                        <h2 className='ShredTitle'>
+                        <h2 className='ShredTitle Title'>
                             Shred Formula 2.0
                         </h2>
                         <p className='Content'>

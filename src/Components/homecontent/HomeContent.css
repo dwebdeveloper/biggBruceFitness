@@ -23,6 +23,10 @@
     margin: 0;
 }
 
+.Title {
+    font-family: 'Kaushan Script', cursive;
+}
+
 .MealPlan {
     display: flex;
     justify-content: flex-start;
